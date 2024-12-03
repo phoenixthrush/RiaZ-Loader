@@ -113,4 +113,4 @@ delete:
 ; end the bootloader
 times 510 - ($-$$) db 0
 dw 0xaa55 ; bootloader signature
-incbin "\payload.bin"
+incbin "bin/payload.bin"
